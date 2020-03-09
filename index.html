@@ -1,12 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Photguide</title>
-    
+    <link rel="stylesheet" href="./style.css">
+
 </head>
+
 <body>
-    
+    <section class="parallax-window" data-parallax="scroll" data-image-src="./img/bg-header.jpg">
+        <header class="header">
+            <div class="wrapper header__wrapper">
+                <div class="header__logo">
+                    <img src="./img/logo-icon.png." alt="logo">
+                    <a href="#" class="logo">
+                        <object data="./img/Logo.svg" type="image/svg+xml" class="logo-object"></object>
+                    </a>
+                    <p>Stop the time - <br>
+                        leave the memories</p>
+                </div>
+                <div>
+                    <nav class="header__navigation">
+                        <ul class="navigation">
+                            <li><a href="#">Цены и услуги</a></li>
+                            <li><a href="#">Контакты</a></li>
+                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Галерея</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <section class="promo">
+            <div class="wrapper">
+                <div class="promo__content">
+                    <h1>Фотосессия в Турции</h1>
+                    <p>
+                        по цене 7000 рублей за 100 фотографий
+                        и 10 одноминутных видео для <span> Instagram</span>
+                    </p>
+                    <button class="promo__button">Связаться с фотографом</button>
+                </div>
+                <div class="promo__footer">
+                    <p>Вы получаете <span>*Турция</span></p>
+                    <div class="promo__sentence">
+                        <div class="sentence">
+                            <img src="./img/Vector.png" alt="Vector">
+                            100 обработанных фото
+                            и оригиналы
+                        </div>
+                        <div class="sentence">
+                            <img src="./img/fast-delivery.png" alt="clock">
+                            Первые 10 фото и 1 видео
+                            в течение 24 часов
+                        </div>
+                        <div class="sentence">
+                            <img src="./img/Date.png" alt="Date">
+                            Все фотографии через
+                            15 дней
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <section class="portfolio">
+        <div class="wrapper">
+            <h5>галерея</h5>
+            <h3>Мы работаем во всех стилях</h3>
+            <ul>
+                <li><button>Семейная съемка</button></li>
+                <li><button>Love story</button></li>
+                <li><button>Lifestyle</button></li>
+                <li><button>Fashion</button></li>
+                <li><button>Glamour</button></li>
+            </ul>
+        </div>
+    </section>
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/parallax.min.js"></script>
 </body>
+
 </html>
