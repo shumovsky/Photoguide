@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photguide</title>
+    <title>Photoguide</title>
+    <link rel="stylesheet" href="./slick/slick.css">
+    <link rel="stylesheet" href="./slick/slick-theme.css">
     <link rel="stylesheet" href="./style.css">
 
 </head>
@@ -67,20 +69,108 @@
         </section>
     </section>
     <section class="portfolio">
-        <div class="wrapper">
+        <div class="wrapper portfolio__wrapper">
             <h5>галерея</h5>
             <h3>Мы работаем во всех стилях</h3>
-            <ul>
-                <li><button>Семейная съемка</button></li>
-                <li><button>Love story</button></li>
-                <li><button>Lifestyle</button></li>
-                <li><button>Fashion</button></li>
-                <li><button>Glamour</button></li>
+            <ul class="portfolio__select">
+                <li><button class="portfolio_btn">Семейная съемка</button></li>
+                <li><button class="portfolio_btn">Love story</button></li>
+                <li><button class="portfolio_btn">Lifestyle</button></li>
+                <li><button class="portfolio_btn">Fashion</button></li>
+                <li><button class="portfolio_btn">Glamour</button></li>
             </ul>
+            <div class="slider">
+                <div class="slide sl-1">
+                    <div><img src="./img/photo1.jpg" alt=""></div>
+                    <div><img src="./img/pool.jpg" alt=""></div>
+                    <div><img src="./img/photo3.jpg" alt=""></div>
+                </div>
+                <div class="slide sl-2">
+                    <div><img src="./img/photo2.jpg" alt="women"></div>
+                    <div><img src="./img/sun.jpg" alt=""></div>
+                    <div><img src="./img/175.jpg" alt=""></div>
+                    <div><img src="./img/dress.jpg" alt=""></div>
+                    <div><img src="./img/sub.jpg" alt=""></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="price">
+        <div class="wrapper price__wrapper">
+            <div>
+                <h5>услуги и цены</h5>
+                <h3>Сколько стоят наши услуги</h3>
+            </div>
+            <div class="price__link">
+                <div class="price__ligth cost">
+                    <p class="pack">пакет</p>
+                    <h4>Лёгкий</h4>
+                    <div class="">
+                        <ul>
+                            <li><img src="./img/list-style.png" alt=""> Съёмка и обработка
+                                60 фотографий</li>
+                            <li><img src="./img/list-style.png" alt="">USB-флешка с фото</li>
+                            <li><img src="./img/list-style.png" alt="">10 одноминутных видео для Instagram</li>
+                            <li><img src="./img/list-style-gray.png" alt=""> Аренда платья на фотосессию</li>
+                            <li><img src="./img/list-style-gray.png" alt="">Аренда квадрокоптера</li>
+                            <li><img src="./img/list-style-gray.png" alt="">Доставка в живописные места Анталии</li>
+                        </ul>
+                    </div>
+                    <div class="coin">
+                        <p>7 000 &#8381;</p>
+                        <button class="price_btn">заказать</button>
+                    </div>
+                </div>
+                <div class="price__premium cost">
+                    <p class="pack">пакет</p>
+                    <h4>Лёгкий</h4>
+                    <div class="">
+                        <ul>
+                            <li><img src="./img/list-style.png" alt=""> Съёмка и обработка
+                                60 фотографий</li>
+                            <li><img src="./img/list-style.png" alt="">USB-флешка с фото</li>
+                            <li><img src="./img/list-style.png" alt="">10 одноминутных видео для Instagram</li>
+                            <li><img src="./img/list-style.png" alt=""> Аренда платья на фотосессию</li>
+                            <li><img src="./img/list-style.png" alt="">Аренда квадрокоптера</li>
+                            <li><img src="./img/list-style.png" alt="">Доставка в живописные места Анталии</li>
+                        </ul>
+                    </div>
+                    <div class="coin">
+                        <p>12 000 &#8381;</p>
+                        <button class="price_btn">заказать</button>
+                    </div>
+                </div>
+                <div class="price__standart cost">
+                    <p class="pack">пакет</p>
+                    <h4>Лёгкий</h4>
+                    <div class="">
+                        <ul>
+                            <li><img src="./img/list-style.png" alt=""> Съёмка и обработка
+                                60 фотографий</li>
+                            <li><img src="./img/list-style.png" alt="">USB-флешка с фото</li>
+                            <li><img src="./img/list-style.png" alt="">10 одноминутных видео для Instagram</li>
+                            <li><img src="./img/list-style.png" alt=""> Аренда платья на фотосессию</li>
+                            <li><img src="./img/list-style-gray.png" alt="">Аренда квадрокоптера</li>
+                            <li><img src="./img/list-style-gray.png" alt="">Доставка в живописные места Анталии</li>
+                        </ul>
+                    </div>
+                    <div class="coin">
+                        <p>9 000 &#8381;</p>
+                        <button class="price_btn">заказать</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="team">
+        <div class="wrapper">
+            
         </div>
     </section>
     <script src="./js/jquery-3.4.1.min.js"></script>
     <script src="./js/parallax.min.js"></script>
+    <script src="./slick/slick.min.js"></script>
+    <script src="./js/js.js"></script>
 </body>
 
 </html>
